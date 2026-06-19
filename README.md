@@ -10,20 +10,33 @@ The app combines smartwatch heart-rate recovery data, subjective feedback, sessi
 
 ---
 
+## Start here
+
+* [Pulse Recovery Overview PDF](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/pdf/Pulse%20Recovery%20Overview.pdf)
+* [Pulse Recovery One-Page PDF](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/pdf/Pulse%20Recovery%20One%20Page.pdf)
+* [Architecture Summary](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Architecture%20Summary.md)
+* [Decision Engine Summary](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Decision%20Engine%20Summary.md)
+* [Roadmap](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Roadmap.md)
+* [Privacy and Data Handling](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Privacy%20and%20Data%20Handling.md)
+* [Sample Session](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/examples/sample-session.md)
+* [Sample Advice Output](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/examples/sample-advice-output.md)
+
+---
+
 ## What this repository contains
 
 This repository contains public portfolio and product documentation for Pulse Recovery.
 
-The full application source code is currently private, but this repository includes product documentation, screenshots, architecture summaries, decision-engine notes, roadmap material, and example session data.
+The full application source code is currently private, but this repository includes product documentation, screenshots, architecture summaries, decision-engine notes, roadmap material, privacy and data-handling notes, and example session data.
 
 ---
 
 ## Product documents
 
-* [Pulse Recovery Overview](docs/pulse-recovery-overview.pdf)
+* [Pulse Recovery Overview PDF](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/pdf/Pulse%20Recovery%20Overview.pdf)
   A fuller product overview covering the idea, user experience, screenshots, advice workflow, decision engine, and future direction.
 
-* [Pulse Recovery One-Pager](docs/pulse-recovery-one-pager.pdf)
+* [Pulse Recovery One-Page PDF](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/pdf/Pulse%20Recovery%20One%20Page.pdf)
   A concise summary of the product, problem, differentiation, current status, and future direction.
 
 ---
@@ -91,7 +104,7 @@ The product experience is built around a watch-and-phone workflow:
 * recovery trend visualisation
 * trend-based advice
 
-Screenshots are included in the product overview document and supporting image folder.
+Screenshots are included in the [Pulse Recovery Overview PDF](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/pdf/Pulse%20Recovery%20Overview.pdf) and supporting `images/` folder.
 
 ---
 
@@ -99,19 +112,13 @@ Screenshots are included in the product overview document and supporting image f
 
 Pulse Recovery uses a rule-based decision engine for the core recovery judgement.
 
-This approach was chosen because recovery guidance should be:
+The engine combines heart-rate recovery metrics, subjective feedback, and previous session history to generate both session-level and trend-level advice.
 
-* transparent
-* consistent
-* testable
-* tunable
-* explainable
-
-AI may have a role later as a coaching-language layer, helping explain the results in a warmer and more personalised way. However, the core recovery decision should remain grounded in clear decision logic.
+Its purpose is not simply to label a workout as good or bad. The aim is to explain what appears to be happening, what signals contributed to the advice, and how the user might approach their next workout.
 
 See:
 
-* [Decision Engine Summary](docs/decision-engine-summary.md)
+* [Decision Engine Summary](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Decision%20Engine%20Summary.md)
 
 ---
 
@@ -138,13 +145,12 @@ Current capabilities include:
 
 ## Supporting documents
 
-Planned supporting documents include:
-
-* [Architecture Summary](docs/architecture-summary.md)
-* [Decision Engine Summary](docs/decision-engine-summary.md)
-* [Roadmap](docs/roadmap.md)
-* [Sample Session](examples/sample-session.md)
-* [Privacy and Data Handling](docs/privacy-and-data.md)
+* [Architecture Summary](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Architecture%20Summary.md)
+* [Decision Engine Summary](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Decision%20Engine%20Summary.md)
+* [Roadmap](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Roadmap.md)
+* [Privacy and Data Handling](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Privacy%20and%20Data%20Handling.md)
+* [Sample Session](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/examples/sample-session.md)
+* [Sample Advice Output](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/examples/sample-advice-output.md)
 
 ---
 
