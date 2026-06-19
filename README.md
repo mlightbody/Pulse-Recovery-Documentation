@@ -8,18 +8,6 @@ Many apps and devices can record heart-rate data. Pulse Recovery focuses on the 
 
 The app combines smartwatch heart-rate recovery data, subjective feedback, session history, and recovery trends to provide clear, personalised recovery guidance. It interprets the latest session, explains what appears to be driving the result, compares it with previous recovery patterns, and gives practical advice on how the user might approach their next workout.
 
----
-
-## Start here
-
-* [Pulse Recovery Overview PDF](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/pdf/Pulse%20Recovery%20Overview.pdf)
-* [Pulse Recovery One-Page PDF](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/pdf/Pulse%20Recovery%20One%20Page.pdf)
-* [Architecture Summary](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Architecture%20Summary.md)
-* [Decision Engine Summary](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Decision%20Engine%20Summary.md)
-* [Roadmap](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Roadmap.md)
-* [Privacy and Data Handling](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/docs/Privacy%20and%20Data%20Handling.md)
-* [Sample Session](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/examples/sample-session.md)
-* [Sample Advice Output](https://github.com/mlightbody/Pulse-Recovery-Documentation/blob/main/examples/sample-advice-output.md)
 
 ---
 
